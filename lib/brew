@@ -27,7 +27,7 @@ run_brew() {
             'graphicsmagick'
             'jpeg'
             'macvim --override-system-vim'
-            'node'
+            'node --without-npm'
             'optipng'
             'phantomjs'
             'tree'
