@@ -1,6 +1,9 @@
 #!/bin/bash
 
 run_npm() {
+    # Install npm
+    echo prefix=~/.npm-packages >> ~/.npmrc
+    curl -L https://www.npmjs.com/install.sh | sh
 
     # Check for npm
     if type_exists 'npm'; then
